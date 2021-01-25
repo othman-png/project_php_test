@@ -4,7 +4,7 @@
 <?php
   try
 {
-	$data = new PDO('mysql:host=localhost;dbname=testphp;charset=utf8', 'root', '');
+	$data = new PDO('mysql:host=localhost;dbname=testphp;charset=utf8', 'root', 'your_password_root');
 }
 catch(Exception $e)
 {
